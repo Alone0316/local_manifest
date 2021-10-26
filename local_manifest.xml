@@ -2,7 +2,7 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="" remote="github" revision="lineage-18.1" />
- <project path="vendor/mido" name="" remote="github" revision="master" />
+ <project path="device/xiaomi/mido" name="https://github.com/Hunter-commits/device_xiaomi_mido.git" remote="github" revision="lineage-18.1" />
+ <project path="vendor/mido" name="https://github.com/Hunter-commits/vendor_xiaomi_mido.git" remote="github" revision="master" />
  <project path="kernel/xiaomi/mido" name="https://github.com/Hunter-commits/kernel_mido.git" remote="github" revision="lineage-18.1" />
  
