@@ -3,6 +3,6 @@
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="https://github.com/Hunter-commits/device_xiaomi_mido.git" remote="github" revision="main" />
- <project path="vendor/mido" name="https://github.com/Hunter-commits/vendor_xiaomi_mido.git" remote="github" revision="master" />
+ <project path="vendor/mido" name="https://github.com/Hunter-commits/vendor_xiaomi_mido.git" remote="github" revision="main" />
  <project path="kernel/xiaomi/mido" name="https://github.com/Hunter-commits/kernel_mido.git" remote="github" revision="normal" />
  
