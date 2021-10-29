@@ -4,7 +4,7 @@
  <remote name="Hunter-commits" fetch="https://github.com/Hunter-commits" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="https://github.com/Hunter-commits/device_xiaomi_mido.git" remote="Hunter-commits" revision="main" />
- <project path="vendor/mido" name="https://github.com/Hunter-commits/vendor_xiaomi_mido.git" remote="Hunter-commits" revision="main" />
- <project path="kernel/xiaomi/mido" name="https://github.com/Hunter-commits/kernel_mido.git" remote="Hunter-commits" revision="normal" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Hunter-commits" revision="main" />
+ <project path="vendor/mido" name="vendor_xiaomi_mido" remote="Hunter-commits" revision="main" />
+ <project path="kernel/xiaomi/mido" name="https://githubkernel_mido" remote="Hunter-commits" revision="normal" />
  </manifest>
