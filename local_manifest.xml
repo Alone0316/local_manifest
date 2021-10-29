@@ -6,5 +6,5 @@
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Hunter-commits" revision="main" />
  <project path="vendor/mido" name="vendor_xiaomi_mido" remote="Hunter-commits" revision="main" />
- <project path="kernel/xiaomi/mido" name="https://githubkernel_mido" remote="Hunter-commits" revision="normal" />
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Hunter-commits" revision="normal" />
  </manifest>
