@@ -8,6 +8,8 @@
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Hunter-commits" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Hunter-commits" revision="normal" />
 
- <!-- Remove Repo -->
- <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-sm8350" />
+ <!-- Remove Hals -->
+ <remove-project name="android_hardware_qcom_display" />
+ <remove-project name="android_hardware_qcom_audio" />
+ <remove-project name"ndroid_hardware_qcom_media" />
  </manifest>
