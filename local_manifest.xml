@@ -11,5 +11,5 @@
  <!-- Remove Hals -->
  <remove-project name="android_hardware_qcom_display" />
  <remove-project name="android_hardware_qcom_audio" />
- <remove-project name="ndroid_hardware_qcom_media" />
+ <remove-project name="android_hardware_qcom_media" />
  </manifest>
