@@ -15,5 +15,5 @@
  <remove-project name="android_hardware_qcom_wlan" />
 
  <!-- Wlan -->
- <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex-tmp" revision="12.x" />
+ <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
  </manifest>
