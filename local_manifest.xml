@@ -2,7 +2,7 @@
 <manifest>
  <!--Remote-->
  <remote name="Hunter-commits" fetch="https://github.com/Hunter-commits" />
-
+ <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Hunter-commits" revision="Cipher" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Hunter-commits" revision="main" />
@@ -12,4 +12,8 @@
  <remove-project name="android_hardware_qcom_display" />
  <remove-project name="android_hardware_qcom_audio" />
  <remove-project name="android_hardware_qcom_media" />
+ <remove-project name="android_hardware_qcom_wlan" />
+
+ <!-- Wlan -->
+ <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex-tmp" revision="12.x" />
  </manifest>
