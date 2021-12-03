@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="Hunter-commits" fetch="https://github.com/Hunter-commits" />
+ <remote name="Hunter-commits" fetch="https://github.com/Alone0316" />
  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Hunter-commits" revision="Cipher" />
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Hunter-commits" revision="main" />
- <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Hunter-commits" revision="normal" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Cipher" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
  <!-- Remove Hals -->
  <remove-project name="android_hardware_qcom_display" />
