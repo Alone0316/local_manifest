@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="Hunter-commits" fetch="https://github.com/Alone0316" />
+ <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Cipher" />
