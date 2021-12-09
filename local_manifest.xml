@@ -4,7 +4,7 @@
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="PE" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Cipher" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
@@ -12,7 +12,7 @@
  <remove-project name="hardware_qcom-caf_sm8350_display" />
  <remove-project name="hardware_qcom-caf_sm8350_audio" />
  <remove-project name="hardware_qcom-caf_sm8350_media" />
- <remove-project name="hardware_qcom_wlan" />
+ <remove-project name="android_hardware_qcom_wlan" />
 
  <!-- Wlan -->
  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
