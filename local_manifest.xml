@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="Hunter-commits" fetch="https://github.com/Hunter-commits" />
+ <remote name="ProjectArcana-Devices" fetch="https://github.com/ProjectArcana-Devices" />
+ <remote name="Alone0316" fetch="https://github.com/Alone0316" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Hunter-commits" revision="Arcana" />
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Hunter-commits" revision="main" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ProjectArcana-Devices" revision="twelve" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ProjectArcana-Devices" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Hunter-commits" revision="normal" />
  </manifest>
