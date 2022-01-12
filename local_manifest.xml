@@ -13,7 +13,11 @@
  <remove-project name="android_hardware_qcom_audio" />
  <remove-project name="android_hardware_qcom_media" />
  <remove-project name="android_hardware_qcom_wlan" />
+ <remove-project name="android_system_bt-1" />
 
  <!-- Wlan -->
  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
+
+ <!-- bt -->
+ <project path="system/bt" name="android_system_bt-1" remote="Alone0316" revision="arrow-12.0" />
  </manifest>
