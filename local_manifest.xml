@@ -3,6 +3,7 @@
  <!--Remote-->
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
+ <remote name="projectarcana-aosp" fetch="https://github.com/projectarcana-aosp" />
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Cipher" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
@@ -19,5 +20,5 @@
  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
 
  <!-- bt -->
- <project path="system/bt" name="android_system_bt-1" remote="Alone0316" revision="arrow-12.0" />
+ <project path="system/bt" name="platform_system_bt" remote="projectarcana-aosp" revision="12.x" />
  </manifest>
