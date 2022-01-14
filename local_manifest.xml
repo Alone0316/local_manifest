@@ -16,7 +16,7 @@
  <remove-project name="android_hardware_qcom_media" />
  <remove-project name="android_hardware_qcom_wlan" />
  <remove-project name="platform/system/bt" /> 
- <remove-project name="packages/apps/Bluetooth" />
+ <remove-project name="platform/packages/apps/Bluetooth" />
 
  <!-- Wlan -->
  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
