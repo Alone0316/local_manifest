@@ -4,7 +4,7 @@
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
  <remote name="projectarcana-aosp" fetch="https://github.com/projectarcana-aosp" />
- <remote name="ArrowOS" fetch="https://github.com/ArrowOS" />
+
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Cipher" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
@@ -23,6 +23,6 @@
 
  <!-- bt -->
  <project path="system/bt" name="platform_system_bt" remote="projectarcana-aosp" revision="12.x" />
- <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ArrowOS" revision="arrow-12.0" />
+ <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="projectarcana-aosp" revision="12.x" />
 
  </manifest>
