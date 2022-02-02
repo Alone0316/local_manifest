@@ -10,9 +10,11 @@
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
  <!-- Wlan -->
- <remove-project name="android_hardware_qcom_wlan" />
- 
+ <remove-project name="AOSPA/android_hardware_qcom_wlan" />
+ <remove-project name="AOSPA/android_device_qcom_common" />
  <!-- Wlan -->
  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
 
+ <!-- Common -->
+ <project path="device/qcom/common" name="android_device_qcom_common" remote="Alone0316" revision="sapphire" />
  </manifest>
