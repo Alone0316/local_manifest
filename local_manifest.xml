@@ -2,7 +2,8 @@
 <manifest>
  <!--Remote-->
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
-
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_caf" remote="Alone0316" revision="sapphire" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
@@ -18,4 +19,7 @@
  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="Alone0316" revision="11.0-caf-msm8996" />
  <project patch="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Alone0316" revision="11.0-caf-msm8996" />
  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="Alone0316" revision="11.0-caf-msm8996" />
+
+ <!-- Ant Radio Library -->
+ <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="LineageOS" revision="lineage-19.0" />
  </manifest>
