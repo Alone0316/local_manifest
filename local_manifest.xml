@@ -3,7 +3,8 @@
  <!--Remote-->
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  <remote name="AOSPA" fetch="https://github.com/AOSPA" />
- 
+ <remote name="LineageOS" fetch="https://github.com/LineageLS" /> 
+
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_caf" remote="Alone0316" revision="sapphire" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="sapphire" />
