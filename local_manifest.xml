@@ -6,9 +6,9 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" /> 
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_caf" remote="Alone0316" revision="sapphire" />
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="sapphire" />
- <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="sapphire" />
+ <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_caf" remote="Alone0316" revision="sapphire_trial" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="sapphire_trial" />
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="sapphire_trial" />
 
  <!-- Common -->
  <remove-project name="AOSPA/android_device_qcom_common" />
