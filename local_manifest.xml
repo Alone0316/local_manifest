@@ -4,6 +4,7 @@
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  <remote name="AOSPA" fetch="https://github.com/AOSPA" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" /> 
+ <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_caf" remote="Alone0316" revision="sapphire_trial" />
@@ -23,4 +24,7 @@
 
  <!-- Sepolicy -->
  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="LineageOS" revision="lineage-19.0-legacy-um" />
+ 
+ <!-- Tinyxml -->
+ <project path="external/tinyxml" name="external_tinyxml" remote="PixelExperience" revision="twelve" />
  </manifest>
