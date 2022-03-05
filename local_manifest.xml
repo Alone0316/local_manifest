@@ -5,6 +5,7 @@
  <remote name="AOSPA" fetch="https://github.com/AOSPA" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" /> 
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
+ <remote name="Sapphire-8953" fetch="https://github.com/Sapphire-8953" />
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_caf" remote="Alone0316" revision="sapphire_trial" />
@@ -19,7 +20,7 @@
 
  <!-- Hals -->
  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="Alone0316" revision="11.0-caf-msm8996" />
- <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="Alone0316" revision="11.0-caf-msm8996" />
+ <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="Sapphire-8953" revision="sapphire" />
  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="Alone0316" revision="11.0-caf-msm8996" />
 
  <!-- Sepolicy -->
