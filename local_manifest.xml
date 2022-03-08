@@ -24,7 +24,7 @@
  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="Alone0316" revision="11.0-caf-msm8996" />
 
  <!-- Sepolicy -->
- <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="LineageOS" revision="lineage-19.0-legacy-um" />
+ <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="Alone0316" revision="lineage-19.0-legacy-um" />
  
  <!-- Tinyxml -->
  <project path="external/tinyxml" name="external_tinyxml" remote="PixelExperience" revision="twelve" />
