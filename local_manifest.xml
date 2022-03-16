@@ -5,6 +5,7 @@
  <remote name="AOSPA" fetch="https://github.com/AOSPA" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" /> 
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
+ <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_caf" remote="Alone0316" revision="sapphire_trial" />
@@ -27,4 +28,8 @@
  
  <!-- Tinyxml -->
  <project path="external/tinyxml" name="external_tinyxml" remote="PixelExperience" revision="twelve" />
+
+ <!-- Proton Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+
  </manifest>
