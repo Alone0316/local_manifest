@@ -2,6 +2,7 @@
 <manifest>
  <!--Remote-->
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
+ <remote name="ProjectAwaken" fetch="https://gitlab.com/Project-Awaken" />
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Cipher" />
@@ -13,4 +14,7 @@
  <remove-project name="android_hardware_qcom_audio" />
  <remove-project name="android_hardware_qcom_media" />
 
+ <!-- gms -->
+ <remove-project name="CipherOS/android_vendor_gms" />
+ <project path="vendor/gms" name="Project-Awaken/android_vendor_gms" clone-depth="1" />
  </manifest>
