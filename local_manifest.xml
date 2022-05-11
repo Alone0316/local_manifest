@@ -25,9 +25,4 @@
 
  <!-- Proton -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
-
- <!-- Kernel -->
- <remove-project name="AOSPA/android_kernel_build" />
- <project path="device/qcom/kernelscripts" name="android_kernel_build" remote="Alone0316" revision="sapphire" />
- <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
  </manifest>
