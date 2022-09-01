@@ -9,6 +9,6 @@
  <project path="vendor/samsung/a52sxq" name="vendor_samsung_a52sxq" remote="Alone0316" revision="main" />
  <project path="kernel/samsung/a52sxq" name="kernel_samsung_a52sxq" remote="Alone0316" revision="main" />
  
- <!-- Clang -->
-  <remove-project name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" />
- </manifest>
+
+
+</manifest>
