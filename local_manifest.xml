@@ -10,5 +10,5 @@
  <project path="kernel/samsung/a52sxq" name="kernel_samsung_a52sxq" remote="Alone0316" revision="main" />
  
  <!-- Clang -->
-  <remove-project="android_prebuilts_clang_host_linux-x86_clang-r416183b1" />
+  <remove-project name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" />
  </manifest>
