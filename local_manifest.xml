@@ -9,7 +9,7 @@
  <!-- Trees -->
  <project path="device/samsung/a52sxq" name="android_device_samsung_a52sxq" remote="Alone0316" revision="main" />
  <project path="vendor/samsung/a52sxq" name="vendor_samsung_a52sxq" remote="Alone0316" revision="main" />
- <project path="kernel/samsung/a52sxq" name="kernel_samsung_a52sxq" remote="Alone0316" revision="main" />
+ <project path="kernel/samsung/a52sxq" name="kernel_a52sxq" remote="Alone0316" revision="main" />
  
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" />
