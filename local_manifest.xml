@@ -6,7 +6,7 @@
  <remote name="PixelOS" fetch="https://github.com/PixelOS-Devices" />
 
  <!-- Trees -->
- <project path="device/samsung/a52sxq" name="android_device_samsung_a52sxq" remote="Alone0316" revision="main" />
+ <project path="device/samsung/a52sxq" name="android_device_samsung_a52sxq" remote="Alone0316" revision="Pixel" />
  <project path="vendor/samsung/a52sxq" name="vendor_samsung_a52sxq" remote="Alone0316" revision="main" />
  <project path="kernel/samsung/a52sxq" name="kk" remote="Alone0316" revision="main" />
  
