@@ -12,7 +12,7 @@
  <project path="kernel/samsung/a52sxq" name="kk" remote="Alone0316" revision="main" />
  
  <!-- Hardware -->
- <project path="hardware/samsung" name="hardware_samsung" remote="PixelOS" revision="twelve" />
+ <project path="hardware/samsung" name="hardware_samsung" remote="Alone0316" revision="twelve" />
 
  <!-- device settings -->
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.1" />
