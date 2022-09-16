@@ -5,7 +5,7 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="PixelOS" fetch="https://github.com/PixelOS-Devices" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="arw" fetch="https://gitlab.com/arrowos-project" />
+ <remote name="arw" fetch="https://gitlab.com/ArrowOS-project" />
  <remote name="arrow" fetch="https://github.com/ArrowOS-Devices" />
 
  <!-- Trees -->
