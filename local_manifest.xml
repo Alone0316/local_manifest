@@ -4,6 +4,7 @@
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  <remote name="PixelOS" fetch="https://github.com/PixelOS-Devices" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="arw" fetch="https://gitlab.com/ArrowOS-project" />
 
  <!-- Trees -->
  <project path="device/samsung/a52sxq" name="android_device_samsung_a52sxq" remote="Alone0316" revision="pixel" />
