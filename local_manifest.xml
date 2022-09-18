@@ -4,8 +4,8 @@
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  <remote name="PixelOS" fetch="https://github.com/PixelOS-Devices" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="arw" fetch="https://gitlab.com/ArrowOS-project" />
- <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" />
+ <!-- <remote name="arw" fetch="https://gitlab.com/ArrowOS-project" /> -->
+ <!-- <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" /> -->
 
  <!-- Trees -->
  <project path="device/samsung/a52sxq" name="android_device_samsung_a52sxq" remote="Alone0316" revision="pixel" />
@@ -14,8 +14,8 @@
  
  <!-- Hardware -->
  <project path="hardware/samsung" name="hardware_samsung" remote="Alone0316" revision="twelve" />
- <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" />
- <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" />
+ <!-- <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" /> -->
+ <!-- <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" /> -->
 
  <!-- device settings -->
  <remove-project name="packages_resources_devicesettings" />
