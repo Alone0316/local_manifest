@@ -11,7 +11,7 @@
  <!-- Trees -->
  <project path="device/samsung/a52sxq" name="android_device_samsung_a52sxq" remote="Alone0316" revision="pixel" />
  <project path="vendor/samsung/a52sxq" name="vendor_samsung_a52sxq" remote="Alone0316" revision="main" />
- <project path="kernel/samsung/a52sxq" name="android_kernel_samsung_sm7325" remote="Simon1511" revision="main" />
+ <project path="kernel/samsung/a52sxq" name="android_kernel_samsung_sm7325" remote="Simon1511" revision="S" />
  
  <!-- Hardware -->
  <project path="hardware/samsung" name="hardware_samsung" remote="Alone0316" revision="twelve" />
