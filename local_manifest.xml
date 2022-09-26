@@ -22,6 +22,6 @@
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.1" />
  
  <!-- Soong -->
- <remove-project name="build_soong"
+ <remove-project name="build_soong" />
  <project path="build/soong" name="build_soong" remote="Alone0316" revision="twelve" />
 </manifest>
