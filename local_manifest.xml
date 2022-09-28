@@ -23,5 +23,8 @@
  
  <!-- Soong -->
  <remove-project name="build_soong" />
- <project path="build/soong" name="build_soong" remote="Alone0316" revision="twelve" />
+ <project path="build/soong" name="build_soong" remote="Alone0316" revision="twelve" >
+ <linkfile src="root.bp" dest="Android.bp" />
+ <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+ </project>
 </manifest>
