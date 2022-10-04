@@ -28,6 +28,4 @@
  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
  </project>
 
- <!-- health -->
- <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="Alone0316" revision="lineage-19.1" />
 </manifest>
