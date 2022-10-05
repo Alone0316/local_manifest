@@ -34,4 +34,5 @@
 
  <!-- Lineage -->
  <project path="lineage-sdk" name="android_lineage-sdk" remote="LineageOS" revision="lineage-19.1" />
+ <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="LineageOS" revision="lineage-19.1" />
 </manifest>
