@@ -33,5 +33,5 @@
  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="Alone0316" revision="lineage-19.1" />
 
  <!-- Lineage -->
- <project path="lineage-sdk" name="android_lineage-sdk" remote="Alone0316" revision="lineage-19.1" />
+ <project path="lineage-sdk" name="android_lineage-sdk" remote="LineageOS" revision="lineage-19.1" />
 </manifest>
