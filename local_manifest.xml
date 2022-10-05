@@ -32,8 +32,4 @@
  <remove-project name="vendor_qcom_opensource_healthd-ext" />
  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="Alone0316" revision="lineage-19.1" />
 
- <!-- Lineage -->
- <remove-project name="hardware_interfaces" />
- <project path="lineage-sdk" name="android_lineage-sdk" remote="LineageOS" revision="lineage-19.1" />
- <project path="hardware/custom/interfaces" name="android_hardware_lineage_interfaces" remote="Alone0316" revision="lineage-19.1" />
 </manifest>
