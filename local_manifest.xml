@@ -13,7 +13,7 @@
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
  <!-- Hals -->
- <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="Alone0316" revision="10.6.2.r1-02500-caf-msm8996" />
+ <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="qcom_audio" remote="Alone0316" revision="10.6.2.r1-02500-caf-msm8996" />
  <project path="hardware/qcom/display" name="qcom_display" remote="Alone0316" revision="10.6.2.r1-02500-caf-msm8996" />
  <project path="hardware/qcom/media" name="qcom_media" remote="Alone0316" revision="10.6.2.r1-02500-caf-msm8996" />
 
