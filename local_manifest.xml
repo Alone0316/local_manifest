@@ -9,6 +9,8 @@
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
+ <!-- resources -->
+ <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-20.0" />
  <!-- Remove Hals -->
  <remove-project name="android_hardware_qcom_display" />
  <remove-project name="android_hardware_qcom_audio" />
