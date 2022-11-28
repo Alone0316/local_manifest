@@ -10,7 +10,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_caf" remote="Alone0316" revision="topaz" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="sapphire_trial" />
- <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="sapphire" />
  
  <!-- Hals -->
  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="qcom_audio" remote="Alone0316" revision="10.6.2.r1-02500-caf-msm8996" />
