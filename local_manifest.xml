@@ -2,20 +2,21 @@
 <manifest>
  <!--Remote-->
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
+ <remote name="aospa-mido" fetch="https://github.com/aospa-mido" />
  <remote name="AOSPA" fetch="https://github.com/AOSPA" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" /> 
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_caf" remote="Alone0316" revision="topaz" />
+ <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="aospa-mido" revision="topaz" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="sapphire_trial" />
- <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="sapphire" />
+ <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="aospa-mido" revision="topaz" />
  
  <!-- Hals -->
- <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="qcom_audio" remote="Alone0316" revision="10.6.2.r1-02500-caf-msm8996" />
- <project path="hardware/qcom/display" name="qcom_display" remote="Alone0316" revision="10.6.2.r1-02500-caf-msm8996" />
- <project path="hardware/qcom/media" name="qcom_media" remote="Alone0316" revision="10.6.2.r1-02500-caf-msm8996" />
+ <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="aospa-mido" revision="topaz-8996" />
+ <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aospa-mido" revision="topaz-8996" />
+ <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="aospa-mido" revision="topaz-8996" />
 
  <!-- Sepolicy -->
  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy-um" remote="Alone0316" revision="topaz" />
