@@ -14,6 +14,10 @@
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="sapphire_trial" />
  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="aospa-mido" revision="topaz" />
  
+ <!-- Common -->
+ <remove-project="android_device_qcom_common" />
+ <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa-mido" revision="topaz" />
+ 
  <!-- Hals -->
  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="aospa-mido" revision="topaz-8996" />
  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aospa-mido" revision="topaz-8996" />
