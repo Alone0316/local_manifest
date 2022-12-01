@@ -34,5 +34,5 @@
  <project path="external/tinyxml" name="external_tinyxml" remote="PixelExperience" revision="thirteen" />
 
  <!-- Proton -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
+ <project path="prebuilts/clang-standalone" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
  </manifest>
