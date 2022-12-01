@@ -15,7 +15,7 @@
  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="aospa-mido" revision="topaz" />
  
  <!-- Common -->
- <remove-project name="android_device_qcom_common" />
+ <remove-project name="AOSPA/android_device_qcom_common" />
  <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa-mido" revision="topaz" />
  
  <!-- Hals -->
