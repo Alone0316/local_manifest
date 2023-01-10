@@ -17,6 +17,10 @@
  <!-- Common -->
  <remove-project name="AOSPA/android_device_qcom_common" />
  <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa-mido" revision="topaz" />
+
+ <!-- bt -->
+ <remove-project name="platform/packages/modules/Bluetooth" />
+ <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="aospa-mido" revision="main" />
  
  <!-- Hals -->
  <remove-project name="platform/hardware/qcom/wlan" />
