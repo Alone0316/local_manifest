@@ -20,7 +20,7 @@
 
  <!-- bt -->
  <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="aospa-mido" revision="main" />
+ <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="aospa-mido" revision="main" />
  
  <!-- Hals -->
  <remove-project name="platform/hardware/qcom/wlan" />
