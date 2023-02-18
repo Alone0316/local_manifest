@@ -30,9 +30,6 @@
  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aospa-mido" revision="topaz" /> 
  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="aospa-mido" revision="topaz" />
 
- <!-- Sepolicy -->
- <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy_legacy" remote="aospa-mido" revision="topaz" />
-
  <!-- GCC -->
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="Arrow" revision="arrow-13.0" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="Arrow" revision="arrow-13.0" />
