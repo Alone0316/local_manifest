@@ -39,4 +39,8 @@
  <!-- Proton -->
  <project path="prebuilts/clang-standalone" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+ 
+ <!-- WLAN -->
+  <remove-project name="AOSPA/android_hardware_qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="aospa-mido" revision="topaz" />
  </manifest>
