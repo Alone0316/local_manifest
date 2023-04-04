@@ -42,5 +42,5 @@
  
  <!-- WLAN -->
   <remove-project name="AOSPA/android_hardware_qcom_wlan" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="aospa-mido" revision="topaz" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="AOSPA" revision="topaz-taro-backup" />
  </manifest>
