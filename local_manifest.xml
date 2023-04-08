@@ -43,4 +43,8 @@
  <!-- WLAN -->
   <remove-project name="AOSPA/android_hardware_qcom_wlan" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="AOSPA" revision="topaz-taro-backup" />
+ 
+ <!-- wpa -->
+ <remove-project name="AOSPA/android_external_wpa_supplicant_8" /> 
+ <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="aospa-mido" revision="topaz" />
  </manifest>
