@@ -7,6 +7,6 @@
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="FlokoROM-mido" revision="11.0" />
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="zeelog" revision="lineage-18.1" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zeelog" revision="lineage-18.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
  </manifest>
