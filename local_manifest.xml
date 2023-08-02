@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
+ <remote name="zeelog" fetch="https://github.com/zeelog" />
+ <remote name="FlokoROM-mido" fetch="https://github.com/FlokoROM-mido" />
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
- <remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Alone0316" revision="Cipher" />
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="Alone0316" revision="main" />
+ <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="FlokoROM-mido" revision="11.0" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="zeelog" revision="lineage-18.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
-
- <!-- resources -->
- <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-20.0" />
- <!-- Remove Hals -->
- <remove-project name="android_hardware_qcom_display" />
- <remove-project name="android_hardware_qcom_audio" />
- <remove-project name="android_hardware_qcom_media" />
  </manifest>
